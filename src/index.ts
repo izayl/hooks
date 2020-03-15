@@ -1,1 +1,1 @@
-export * from './hooks/use-switch'
+export * from './hooks'
