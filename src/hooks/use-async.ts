@@ -1,17 +1,29 @@
-import { useState } from "react"
+import { useRef } from "react"
 
 type AsyncFuntion = (...args: any[]) => Promise<any>
 
+interface AsyncState<T> {
+  loading: boolean
+  error: null | any
+  result: null | any
+  fetch: T | Function
+}
 export const useAsync = (asyncFunction: AsyncFuntion) => {
-  const [asyncState, setAsyncState] = useState({
+  const asyncRef = useRef<AsyncState<AsyncFuntion>>({
     loading: false,
     error: null,
     result: null,
     fetch: typeof asyncFunction === 'function' ? asyncFunction : () => null,
   })
 
+  const setAsyncState = (state: AsyncState<AsyncFuntion>) => {
+    asyncRef.current = state
+  }
+
   return {
-    asyncState,
+    get asyncState() {
+      return asyncRef.current
+    },
     setAsyncState,
   }
 }
