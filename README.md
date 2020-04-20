@@ -5,14 +5,13 @@
     <br />
     @izayl/hooks
     <br />
-    <br />
-    <br />
   </h1>
   <sup>
-    <br />
-    <br />
     <a href="https://www.npmjs.com/package/@izayl/hooks">
        <img src="https://img.shields.io/npm/v/@izayl/hooks.svg" alt="npm package" />
+    </a>
+    <a href="https://standardjs.com">
+       <img src="https://img.shields.io/badge/code_style-standard-brightgreen.svg" alt="JavaScript Style Guide" />
     </a>
     <br />
     Collections of custom-react-hooks.
@@ -29,7 +28,7 @@
   <br />
 </div>
 
-[![NPM](https://img.shields.io/npm/v/@izayl/hooks.svg)](https://www.npmjs.com/package/@izayl/hooks) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+
 
 
 ## Life-Cycle Hook
