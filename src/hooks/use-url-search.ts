@@ -1,7 +1,9 @@
 import { parse } from 'querystring'
 
-export const useSearch = (): AnyObject => {
-  const { search } = location
+export const useUrlSearch = (searchString?: string): AnyObject => {
+  let search = searchString || location.search
 
-  return parse(search.split('?')[1])
+  search = search.startsWith('?') ? search.substr(1) : search
+
+  return parse(search)
 }
