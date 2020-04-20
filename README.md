@@ -1,24 +1,49 @@
-# @izayl/hooks
-
-> Collections of custom-react-hooks.
+<div align="center">
+  <h1>
+    <br/>
+    🏝
+    <br />
+    @izayl/hooks
+    <br />
+    <br />
+    <br />
+  </h1>
+  <sup>
+    <br />
+    <br />
+    <a href="https://www.npmjs.com/package/@izayl/hooks">
+       <img src="https://img.shields.io/npm/v/@izayl/hooks.svg" alt="npm package" />
+    </a>
+    <br />
+    Collections of custom-react-hooks.
+  </sup>
+  <br />
+  <br />
+  <br />
+  <br />
+  <pre>yarn add <a href="https://www.npmjs.com/package/@izayl/hooks">@izayl/hooks</a></pre>
+  <br />
+  <p> or </p>
+  <pre>npm i <a href="https://www.npmjs.com/package/@izayl/hooks">@izayl/hooks</a></pre>
+  <br />
+  <br />
+</div>
 
 [![NPM](https://img.shields.io/npm/v/@izayl/hooks.svg)](https://www.npmjs.com/package/@izayl/hooks) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
-## Install
 
-```bash
-npm install --save @izayl/hooks
+## Life-Cycle Hook
 
-// or use yarn
+- [useMount](https://github.com/izayl/hooks/blob/master/src/hooks/use-mount.ts)
 
-yarn add @izayl/hooks
-```
+- [useUnmount](https://github.com/izayl/hooks/blob/master/src/hooks/use-unmount.ts)
 
-## Usage
 
-```tsx
-TBD
-```
+## Status
+
+- [useSwitch](https://github.com/izayl/hooks/blob/master/src/hooks/use-switch.ts)
+
+
 
 ## License
 
