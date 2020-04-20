@@ -14,7 +14,7 @@
        <img src="https://img.shields.io/badge/code_style-standard-brightgreen.svg" alt="JavaScript Style Guide" />
     </a>
     <br />
-    Collections of custom-react-hooks.
+    <h2 style="border: none">Collections of custom-react-hooks.</h2>
   </sup>
   <br />
 
