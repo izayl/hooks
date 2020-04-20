@@ -28,6 +28,10 @@ export const useAsync = (asyncFunction: AsyncFuntion) => {
   }
 }
 
+/**
+ * [@izayl TBD]
+ * @param fetchFn asyncFunction
+ */
 export const useAsyncCallback = (fetchFn: AsyncFuntion) => {
   const { asyncState, setAsyncState } = useAsync(fetchFn)
 
