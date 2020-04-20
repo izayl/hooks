@@ -25,6 +25,8 @@ interface SwitchHook {
 /**
  * 状态切换 Custom Hook
  * @param initial [boolean] 初始状态
+ *
+ * @returns [SwitchHook]
  */
 export const useSwitch = (initial: boolean): SwitchHook => {
   const [sw, setSw] = useState<boolean>(initial)
