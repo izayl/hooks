@@ -1,9 +1,9 @@
 <div align="center">
   <h1>
-    <br/>
     🏝
     <br />
     @izayl/hooks
+    <br />
     <br />
   </h1>
   <sup>
@@ -17,14 +17,11 @@
     Collections of custom-react-hooks.
   </sup>
   <br />
-  <br />
-  <br />
-  <br />
+
   <pre>yarn add <a href="https://www.npmjs.com/package/@izayl/hooks">@izayl/hooks</a></pre>
-  <br />
   <p> or </p>
   <pre>npm i <a href="https://www.npmjs.com/package/@izayl/hooks">@izayl/hooks</a></pre>
-  <br />
+
   <br />
 </div>
 
